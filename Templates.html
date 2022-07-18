@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templates</title>
+    <link rel="stylesheet" href="Templates.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#headerContent").load("header.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="headerContent"></div>
+    <div class="fluid-container" style="height: calc(100vh - 90px); padding: 20px;">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#" class="btn btn-primary form-group">IA-78/79/B1 Pulchowk Branch Q1</a>
+                <h5><i class="fa fa-folder-open"></i> Guidelines and Templates</h5>
+                <ul class="side-nav-tree">
+                    <li>
+                        <a href="./Open.html" style="color: black;">
+                            <i class="fa fa-folder"></i> Guidelines
+                        </a>
+                    </li>
+                    <li class="selected-menu">
+                        <span class="temp"><i class="fa fa-folder"></i> Templates</span>
+                    </li>
+                </ul>
+                <h5><i class="fa fa-folder-open"></i> Audit Summary</h5>
+                <ul class="side-nav-tree">
+                    <li>
+                        <a href="./Draft.html" style="color: black;">
+                            <i class="fa fa-folder"></i> Draft Report
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./Final.html" style="color: black;">
+                            <i class="fa fa-folder"></i> Final Report
+                        </a>
+                    </li>
+                </ul>
+                <h5><i class="fa fa-folder-open"></i> Audit Program/RACM</h5>
+                <ul class="side-nav-tree">
+                    <li>
+                        <i class="fa fa-folder-open"></i> Business Risk
+                        <ul>
+                            <li>
+                                <i class="fa fa-folder"></i> Credit Risk
+                            </li>
+                            <li>
+                                <i class="fa fa-folder"></i> Earning
+                            </li>
+                            <li>
+                                <i class="fa fa-folder"></i> Operational Risk
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div style="margin-top: 3px;"> <i class="fa fa-folder-open"></i> Control Risk</div>
+                        <ul>
+                            <li>
+                                <a href="./Credit.html" style="color: black;">
+                                    <i class="fa fa-folder"></i> Credit Function
+                                </a>
+                            </li>
+                            <li>                           
+                                <i class="fa fa-folder"></i> Non-Credit Function
+                            </li>
+                            <li>
+                                <i class="fa fa-folder"></i> IT & Cyber Security
+                            </li>
+                            <li>
+                                <i class="fa fa-folder"></i> Compliance
+                            </li>
+                            <li>
+                                <i class="fa fa-folder"></i> Branch Management-General
+                            </li>
+                            <li>
+                                <i class="fa fa-folder"></i> Branch Management-Security
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-12" style="padding: 0;">
+                        <div class="special-menu">
+                            <div class="btn-special-menu">
+                                <div class="btn-special-menu-icon">
+                                    <a href="./Dashboard.html"><img src="./File.svg" alt=""><br>
+                                </div>
+                                <div class="btn-special-menu-text" style="color: black;">
+                                    Close
+                                </div>
+                                </a>
+                            </div>
+                            <div class="btn-special-menu">
+                                <div class="btn-special-menu-icon">
+                                    <img src="./Add_folder.svg" alt=""><br>
+                                </div>
+                                <div class="btn-special-menu-text">
+                                    Add Folder
+                                </div>
+                            </div>
+                            <div class="btn-special-menu">
+                                <div class="btn-special-menu-icon">
+                                    <img src="./Add_paperwork.svg" alt=""><br>
+                                </div>
+                                <div class="btn-special-menu-text">
+                                    Add Paper Work
+                                </div>
+                            </div>
+                            <div class="btn-special-menu">
+                                <div class="btn-special-menu-icon">
+                                    <img src="./Download.svg" alt=""><br>
+                                </div>
+                                <div class="btn-special-menu-text">
+                                    Download
+                                </div>
+                            </div>
+                            <div class="btn-special-menu">
+                                <div class="btn-special-menu-icon">
+                                    <img src="./Edit.svg" alt=""><br>
+                                </div>
+                                <div class="btn-special-menu-text">
+                                    Edit
+                                </div>
+                            </div>
+                            <div class="btn-special-menu">
+                                <div class="btn-special-menu-icon">
+                                    <img src="./Save.svg" alt=""><br>
+                                </div>
+                                <div class="btn-special-menu-text">
+                                    Save
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <table class="table table-bordered table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>File #</th>
+                                    <th>Title/File Name</th>
+                                    <th>User</th>
+                                    <th>Date Last Modified</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Tem-1</td>
+                                    <td>Sampling Credit Function : IA-78-79/B1</td>
+                                    <td>GSHRESTHA</td>
+                                    <td>03/05/2079</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>Tem-2</td>
+                                    <td>Test Procedure : IA-78-79/B1</td>
+                                    <td>GSHRESTHA</td>
+                                    <td>15/05/2079</td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+</body>
+
+</html>
