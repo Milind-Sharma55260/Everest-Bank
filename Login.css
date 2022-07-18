@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.rectangle1{
+    height: 178px;
+    /* width: 615px; */
+    background-color: #C00000;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    /* margin-top:15%;  */
+    /* margin-left: 32%; */
+}
+
+#logo{
+    width: 80%;
+    height: auto;    
+    margin-top: 10px;
+}
+
+.rectangle2{    
+    background-color: #d9d9d9;
+    border-radius: 0 0 5px 5px;    
+    justify-content: center;    
+}
+
+.rectangle3{
+height: 30px;
+width: 280px;
+background-color: white;
+margin-left: 20%;
+border-radius: 5px;
+/* margin-top: -20px; */
+}
+
+.rectangle4{
+    height: 30px;
+    width: 280px;
+    background-color: white;
+    margin-left: 20%;
+    border-radius: 5px;
+    padding-left: 300px;
+    }
+.rectangle5{
+    height: 32px;
+    width: 98px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 50%;
+    border-radius: 5px;
+}
+
+.txt{
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+.log{
+    text-align: center;
+    margin-top: -20px;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.centered {
+    width: 50%;
+    margin: 0 auto;
+    height: 420px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .centered {
+        width: 100%;
+        margin: 20px;
+    }
+}

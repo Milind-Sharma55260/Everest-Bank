@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="Dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#headerContent").load("header.html");
+    });
+  </script>
+
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <div id="headerContent"></div>
+  <div class="dash">
+    <div class="row">
+      <div class="col-md-12" style="padding: 0;">
+        <div class="special-menu">
+          <div class="btn-special-menu">
+            <div class="btn-special-menu-icon">
+              <a href="./Open.html"><img src="./File.svg" alt=""><br>
+            </div>
+            <div class="btn-special-menu-text" style="color: black;">
+              Open
+            </div>
+            </a>
+          </div>
+          <div class="btn-special-menu">
+            <div class="btn-special-menu-icon">
+              <a href="./New.html"><img src="./File.svg" alt=""><br>
+            </div>
+            <div class="btn-special-menu-text" style="color: black;">
+              New
+            </div>
+            </a>
+          </div>
+          <div class="btn-special-menu">
+            <div class="btn-special-menu-icon">
+              <img src="./Refresh.svg" alt=""><br>
+            </div>
+            <div class="btn-special-menu-text">
+              Refresh
+            </div>
+          </div>
+          <div class="btn-special-menu">
+            <div class="btn-special-menu-icon">
+              <a href="./Filter.html"><img src="./Filter.svg" alt=""><br>
+            </div>
+            <div class="btn-special-menu-text" style="color: black;">
+              Filter
+            </div>
+            </a>
+          </div>
+          <div class="btn-special-menu">
+            <div class="btn-special-menu-icon">
+              <a href="./Login.html"><img src="./File.svg" alt=""><br>
+            </div>
+            <div class="btn-special-menu-text" style="color: black;">
+              Close
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fluid-container">
+      <div class="row">
+        <div class="col-md-6" style="text-align: center;">
+          <div class="form-group form-inline">
+            <label for="exampleInputEmail1">Find Project</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""
+              style="width: 250px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <table class="table table-bordered table-hover table-striped">
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>Audit Unit</th>
+            <th>Project Code</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Branch Audit- Q1 Pulchowk Br.</td>
+            <td>Pulchowk Branch</td>
+            <td>IA-78/79/B1</td>
+            <td>05/01/2078</td>
+            <td>31/06/2078</td>
+            <td class="table-primary">Final Report</td>
+
+          </tr>
+
+          <tr>
+            <td>Branch Audit- Q2 Pulchowk Br.</td>
+            <td>Damauli Branch</td>
+            <td>IA-78/79/B21</td>
+            <td>14/07/2078</td>
+            <td>15/09/2078</td>
+            <td class="table-danger">Draft Report</td>
+
+          </tr>
+          <tr>
+            <td>Branch Audit- Q3 Bharatpur Br.</td>
+            <td>Bharatpur Branch</td>
+            <td>IA-78/79/B123</td>
+            <td>10/05/2078</td>
+            <td>12/04/2078</td>
+            <td class="table-dark">Field Work</td>
+
+          </tr>
+          <tr>
+            <td>Branch Audit- Q3 Pokhara Br.</td>
+            <td>Pokhara Branch</td>
+            <td>IA-78/79/B102</td>
+            <td>10/05/2078</td>
+            <td>12/04/2078</td>
+            <td class="table-success">Closed</td>
+          </tr>
+
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
